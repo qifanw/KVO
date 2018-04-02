@@ -13,6 +13,8 @@
 		0005F345206DD9180077A2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0005F344206DD9180077A2EB /* Assets.xcassets */; };
 		0005F348206DD9180077A2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005F346206DD9180077A2EB /* LaunchScreen.storyboard */; };
 		0005F34B206DD9180077A2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F34A206DD9180077A2EB /* main.m */; };
+		0005F353206DD93E0077A2EB /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F352206DD93E0077A2EB /* person.m */; };
+		0005F356206DDF700077A2EB /* NSObject+QFKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F355206DDF700077A2EB /* NSObject+QFKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0005F347206DD9180077A2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0005F349206DD9180077A2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0005F34A206DD9180077A2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0005F351206DD93E0077A2EB /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		0005F352206DD93E0077A2EB /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		0005F354206DDF700077A2EB /* NSObject+QFKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+QFKVO.h"; sourceTree = "<group>"; };
+		0005F355206DDF700077A2EB /* NSObject+QFKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QFKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0005F33C206DD9180077A2EB /* AppDelegate.m */,
 				0005F33E206DD9180077A2EB /* ViewController.h */,
 				0005F33F206DD9180077A2EB /* ViewController.m */,
+				0005F354206DDF700077A2EB /* NSObject+QFKVO.h */,
+				0005F355206DDF700077A2EB /* NSObject+QFKVO.m */,
+				0005F351206DD93E0077A2EB /* person.h */,
+				0005F352206DD93E0077A2EB /* person.m */,
 				0005F341206DD9180077A2EB /* Main.storyboard */,
 				0005F344206DD9180077A2EB /* Assets.xcassets */,
 				0005F346206DD9180077A2EB /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 			files = (
 				0005F340206DD9180077A2EB /* ViewController.m in Sources */,
 				0005F34B206DD9180077A2EB /* main.m in Sources */,
+				0005F356206DDF700077A2EB /* NSObject+QFKVO.m in Sources */,
+				0005F353206DD93E0077A2EB /* person.m in Sources */,
 				0005F33D206DD9180077A2EB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NUDXGJCBJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhengLian.KVO;
@@ -293,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NUDXGJCBJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhengLian.KVO;
